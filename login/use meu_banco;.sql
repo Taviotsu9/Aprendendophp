@@ -1,7 +1,7 @@
-use meu_banco;
+use Meu_banco;
 
-Create table usuarios (
-id int not null primary key auto_increment,
-nome varchar(100),
-usuario varchar(100),
-senha varchar(100));
+Create table usuarios(
+id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+nome VARCHAR(100),
+usuario VARCHAR(100),
+senha VARCHAR(100));
