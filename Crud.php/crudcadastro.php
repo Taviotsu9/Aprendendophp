@@ -1,5 +1,5 @@
 <?php
-$obj_mysqli = new mysqli("127.0.0.1", "root", "", "tutocrudphp");
+$obj_mysqli = new mysqli("", "root", "", "tutocrudphp");
 
 if ($obj_mysqli->connect_errno) {
     echo "Ocorre um erro na conexão com o banco de dados.";
